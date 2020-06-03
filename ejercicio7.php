@@ -37,12 +37,23 @@
 
    if (is_integer($_GET['numero']))
    {
-       echo "<p> si es entero </p";
+       echo "<p> <br> si es entero </p";
    }
 
    else
    {
-       echo "<p> no es entero </p>";
+       echo "<p> <br> no es entero </p>";
+   }
+
+   for ($i=1;$i<=$_GET;$i++)
+   {
+       if(primo($i)){
+           echo "<p> El numero ".$i."es primo";
+       }
+       else
+       {
+           echo "<p> El numero ".$i."no es primo";
+       }
    }
    
    
