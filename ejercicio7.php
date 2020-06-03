@@ -28,6 +28,18 @@
        echo "<p> no es mayor a uno </p>";
    }
 
+   if (is_int($_GET['numero']))
+   {
+       echo "<p> si es entero </p";
+   }
+
+   else
+   {
+       echo "<p> no es entero </p>";
+   }
+
+
+
 
    
    ?>
