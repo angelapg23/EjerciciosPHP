@@ -9,6 +9,7 @@
     header ("Content-type: text/html;charset=\"utf-8\"");
     echo "<h1>".$_GET['numero']."</h1>";
 
+
     if (is_numeric($_GET['numero']))
    {
     echo "<p> si es un valor numerico </p>";
@@ -17,6 +18,8 @@
    {
        echo "<p>no es numerico </p>";
    }
+
+
 
    if ($_GET['numero'] >=1)
    {
@@ -28,7 +31,10 @@
        echo "<p> no es mayor a uno <br> </p>";
    }
 
-   if ($_GET['numero']%$_GET['numero']==0)
+
+
+
+   if (($_GET['numero']%$_GET['numero'])==0)
    {
        echo "<p> si es entero </p";
    }
@@ -57,11 +63,6 @@
    {
        echo "<p> no es entero </p>";
    }
-
-
-
-
-   
    ?>
 
 <form>
