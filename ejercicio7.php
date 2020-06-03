@@ -11,21 +11,21 @@
 
     if (is_numeric($_GET['numero']))
    {
-    echo "<p>".$_GET['si es numerico']."</p>";
+    echo "<p> si es un valor numerico </p>";
    }
    else
    {
-       echo "<p>no es numerico. </p>";
+       echo "<p>no es numerico </p>";
    }
 
    if ($_GET['numero'] >=1)
    {
-       echo "<p>".$_GET['si es mayor a 1']."</p";
+       echo "<p> si es mayor a 1 </p";
    }
 
    else
    {
-       echo "<p>no es mayor a uno. </p>";
+       echo "<p> no es mayor a uno </p>";
    }
 
 
