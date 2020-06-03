@@ -9,7 +9,7 @@
     header ("Content-type: text/html;charset=\"utf-8\"");
     echo "<h1>".$_GET['numero']."</h1>";
 
-    if (is_numeric($_GET['numero'])
+    if (is_numeric($_GET['numero']))
    {
     echo "<p>".$_GET['si es numerico']."</p>";
    }
@@ -33,7 +33,7 @@
    ?>
 
 <form>
-       Escribe tu nombre completo:
+       Escriba un numero:
        <input name="numero" type="text" placeholder="Ingrese un numero">
        <input type="submit" value="registrar">
 </form>
