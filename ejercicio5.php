@@ -5,7 +5,7 @@
     <h1>Ejercicio 5 </h1>
     <?php
 
-    header ("Content-type: text/html;charset=\"utf-8\"")
+    header ("Content-type: text/html;charset=\"utf-8\"");
 
     for ($i=1;$i<=10;$i++)
     {
@@ -28,7 +28,7 @@
 
     $familia = array("Maria","Ana","Jose","Pedro");
 
-    for($i=0;$i<=sizeooff($familia);$i++)
+    for($i=0;$i<=sizeof($familia);$i++)
     {
         echo "<h2>$familia[$i] numero de elementos $i </h2>";
         echo "<br>";
