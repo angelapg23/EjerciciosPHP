@@ -5,7 +5,7 @@
     <h1> Ejercicio 4 </h1>
     <?php
 
-    header ("Content-type: text/html;charset=\"utf-8"");
+    header ("Content-type: text/html;charset=\"utf-8\"");
     $usuario = "anpg14";
 
     if ( $usuario == "apg14" || $usuario == "anpg14")
@@ -29,6 +29,7 @@
     {
         echo "<h1>Lo siento debe tener al menos 18 años </h1>";
     }
+
 
    ?>
 
