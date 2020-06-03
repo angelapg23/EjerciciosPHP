@@ -38,17 +38,17 @@
        echo "<p> no es entero </p>";
    }
 
-   
+   $contador=0;
    for($i=1;$i<=$_GET['numero'];$i++)
     {
         if (($_GET['numero']% $i)==0)
    {
-       $i ++;
+       $contador ++;
    }
 
     }
 
-   if ($i<=2)
+   if ($contador<=2)
    {
        echo "<p> si es entero </p";
    }
