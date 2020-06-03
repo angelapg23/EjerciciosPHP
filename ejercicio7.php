@@ -10,6 +10,7 @@
     echo "<h1>".$_GET['numero']."</h1>";
 
 
+
     if (is_numeric($_GET['numero']))
    {
     echo "<p> si es un valor numerico </p>";
@@ -18,6 +19,7 @@
    {
        echo "<p>no es numerico </p>";
    }
+
 
 
 
@@ -33,8 +35,7 @@
 
 
 
-
-   if (($_GET['numero']%$_GET['numero'])==0)
+   if (is_integer($_GET['numero']))
    {
        echo "<p> si es entero </p";
    }
@@ -43,27 +44,8 @@
    {
        echo "<p> no es entero </p>";
    }
-
-
-  // $contador=0;
-  // for($i=1;$i<=$_GET['numero'];$i++)
-  //  {
-   //     if (($_GET['numero']% $i)==0)
-  // {
-     //  $contador ++;
- //  }
-
-  //  }
-
- //  if ($contador<=2)
- // {
-  //     echo "<p> si es entero </p";
-  // }
-
- //  else
- //  {
- //      echo "<p> no es entero </p>";
- //  }
+   
+   
    ?>
 
 <form>
