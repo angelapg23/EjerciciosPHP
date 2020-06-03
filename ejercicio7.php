@@ -44,25 +44,26 @@
        echo "<p> no es entero </p>";
    }
 
-   $contador=0;
-   for($i=1;$i<=$_GET['numero'];$i++)
-    {
-        if (($_GET['numero']% $i)==0)
-   {
-       $contador ++;
-   }
 
-    }
+  // $contador=0;
+  // for($i=1;$i<=$_GET['numero'];$i++)
+  //  {
+   //     if (($_GET['numero']% $i)==0)
+  // {
+     //  $contador ++;
+ //  }
 
-   if ($contador<=2)
-   {
-       echo "<p> si es entero </p";
-   }
+  //  }
 
-   else
-   {
-       echo "<p> no es entero </p>";
-   }
+ //  if ($contador<=2)
+ // {
+  //     echo "<p> si es entero </p";
+  // }
+
+ //  else
+ //  {
+ //      echo "<p> no es entero </p>";
+ //  }
    ?>
 
 <form>
