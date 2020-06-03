@@ -34,7 +34,7 @@
         echo "<br>";
     }
 
-    $i=1;
+    $i=0;
     while($i <= sizeof($familia))
     {
         echo "<h2>$familia[$i]</h2>";
