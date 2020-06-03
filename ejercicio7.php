@@ -12,11 +12,11 @@
 
     if (is_numeric($_GET['numero']))
    {
-    echo "<p> si es un valor numerico </p>";
+    echo "<p> Es un valor numerico </p>";
    }
    else
    {
-       echo "<p>no es numerico </p>";
+       echo "<p>No es un valor numerico </p>";
    }
 
 
@@ -24,26 +24,37 @@
 
    if ($_GET['numero'] >=1)
    {
-       echo "<p> si es mayor a 1  <br> </p";
+       echo "<p> Es mayor a 1 <br> </p";
    }
 
    else
    {
-       echo "<p> no es mayor a uno <br> </p>";
+       echo "<p> No es mayor a uno <br> </p>";
    }
 
 
 
    if (ctype_digit($_GET['numero'])==true)
    {
-       echo "<p> <br> si es entero </p";
+       echo "<p> <br> Es un numero entero </p";
    }
 
    else
    {
-       echo "<p>  no es entero </p>";
+       echo "<p>  No es un numero entero </p>";
    }
 
+
+
+   if ($_GET['numero']%2!=0)
+   {
+       echo "<p> <br> Es un numero primo </p";
+   }
+
+   else
+   {
+       echo "<p>  No es un numero primo </p>";
+   }
 
 
  
