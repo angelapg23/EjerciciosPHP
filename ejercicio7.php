@@ -20,15 +20,15 @@
 
    if ($_GET['numero'] >=1)
    {
-       echo "<p> si es mayor a 1 </p";
+       echo "<p> si es mayor a 1  <br> </p";
    }
 
    else
    {
-       echo "<p> no es mayor a uno </p>";
+       echo "<p> no es mayor a uno <br> </p>";
    }
 
-   if (is_int($_GET['numero']))
+   if (is_integer($_GET['numero']))
    {
        echo "<p> si es entero </p";
    }
