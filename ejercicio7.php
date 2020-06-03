@@ -10,18 +10,6 @@
     echo "<h1>".$_GET['numero']."</h1>";
 
 
-    for ($i=1;$i<=$_GET;$i++)
-   {
-       if(primo($i)){
-           echo "<p> El numero ".$i."es primo";
-       }
-       else
-       {
-           echo "<p> El numero ".$i."no es primo";
-       }
-   }
-
-
     if (is_numeric($_GET['numero']))
    {
     echo "<p> si es un valor numerico </p>";
@@ -46,7 +34,7 @@
 
 
 
-   if (is_integer($_GET['numero']))
+   if (ctype_digit($_GET['numero'])==true)
    {
        echo "<p> <br> si es entero </p";
    }
@@ -56,18 +44,9 @@
        echo "<p>  no es entero </p>";
    }
 
-   /*
-   for ($i=1;$i<=$_GET;$i++)
-   {
-       if(primo($i)){
-           echo "<p> El numero ".$i."es primo";
-       }
-       else
-       {
-           echo "<p> El numero ".$i."no es primo";
-       }
-   }
-*/
+
+
+ 
    
    ?>
 
