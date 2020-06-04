@@ -41,23 +41,31 @@
 
    else
    {
-       echo "<p>  No es un numero entero </p>";
+       echo "<p>  No es un numero entero <br> </p>";
    }
 
+   $n = ($_GET['Numero']);
+   $M = $n - 1;
 
+   $primo= "si";
 
-   if ($_GET['numero']%2!=0)
-   {
-       echo "<p> <br> Es un numero primo </p";
+   for ($i=2;$i<=$M;$i++){
+       $residuo = $n % $i;
+
+       if($residuo ==0)
+       {
+        $primo="no";
+       break;
+       }
    }
 
-   else
-   {
-       echo "<p>  No es un numero primo </p>";
+   if ($primo == "si"){
+       echo " $n  es un numero primo";
+
    }
-
-
- 
+   else{
+       echo "$n no es un numero primo";
+   
    
    ?>
 
