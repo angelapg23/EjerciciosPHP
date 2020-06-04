@@ -44,6 +44,7 @@
        echo "<p>  No es un numero entero <br> </p>";
    }
 
+   ?>
 <form>
        Escriba un numero:
        <input name="numero" type="text" placeholder="Ingrese un numero">
