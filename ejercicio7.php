@@ -57,13 +57,13 @@
 
    if($x ==2)
    {
-       echo "<p> El numero $_GET es primo <br> </p> ";
+       echo "<p> El numero es primo <br> </p> ";
       
    }
 
    else
    {
-    echo "<p> El numero $_GET no es primo <br> </p> ";
+    echo "<p> El numero no es primo <br> </p> ";
    }
 
 
