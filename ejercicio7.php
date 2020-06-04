@@ -36,12 +36,12 @@
 
    if (ctype_digit($_GET['numero'])==true)
    {
-       echo "<p> <br> Es un numero entero <br> </p";
+       echo "<p>  Es un numero entero <br> </p";
    }
 
    else
    {
-       echo "<p>  No es un numero entero <br> </p>";
+       echo "<p> No es un numero entero <br> </p>";
    }
 
    
