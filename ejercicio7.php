@@ -68,6 +68,16 @@
 
    */
 
+  for ($i=10;$i>=0;$i--)
+
+  {
+      echo "<p>$i</p>";
+
+  }
+
+  echo "<p>Finaliza ciclo for </p>";
+
+
    ?>
 
 <form>
