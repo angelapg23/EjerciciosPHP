@@ -43,7 +43,7 @@
    {
        echo "<p>  No es un numero entero <br> </p>";
    }
-   
+
 
    $x = 0;
    for ($i=1;$i<=$_GET['numero']$i++)
@@ -57,16 +57,17 @@
 
    if($x ==2)
    {
-       echo "<p> El numero es primo </p> <br>";
+       echo "<p> El numero $_GET es primo <br> </p> ";
       
    }
 
    else
    {
-    echo "<p> El numero no es primo </p> <br>";
+    echo "<p> El numero $_GET no es primo <br> </p> ";
    }
 
    ?>
+
 <form>
        Escriba un numero:
        <input name="numero" type="text" placeholder="Ingrese un numero">
