@@ -36,7 +36,7 @@
 
    if (ctype_digit($_GET['numero'])==true)
    {
-       echo "<p> <br> Es un numero entero </p";
+       echo "<p> <br> Es un numero entero <br> </p";
    }
 
    else
