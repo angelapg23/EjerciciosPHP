@@ -44,31 +44,6 @@
        echo "<p>  No es un numero entero <br> </p>";
    }
 
-   $n = ($_GET['Numero']);
-   $M = $n - 1;
-
-   $primo= "si";
-
-   for ($i=2;$i<=$M;$i++){
-       $residuo = $n % $i;
-
-       if($residuo ==0)
-       {
-        $primo="no";
-       break;
-       }
-   }
-
-   if ($primo == "si"){
-       echo " $n  es un numero primo";
-
-   }
-   else{
-       echo "$n no es un numero primo";
-   
-   
-   ?>
-
 <form>
        Escriba un numero:
        <input name="numero" type="text" placeholder="Ingrese un numero">
