@@ -43,6 +43,28 @@
    {
        echo "<p>  No es un numero entero <br> </p>";
    }
+   
+
+   $x = 0;
+   for ($i=1;$i<=$_GET['numero']$i++)
+   {
+       if(($_GET['numero'] % $i) == 0)
+       {
+           $x++;
+
+       }
+   }
+
+   if($x ==2)
+   {
+       echo "<p> El numero es primo </p> <br>";
+      
+   }
+
+   else
+   {
+    echo "<p> El numero no es primo </p> <br>";
+   }
 
    ?>
 <form>
