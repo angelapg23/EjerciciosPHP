@@ -44,7 +44,7 @@
        echo "<p>  No es un numero entero <br> </p>";
    }
 
-
+   /*
    $x = 0;
    for ($i=1;$i<=$_GET['numero']$i++)
    {
@@ -65,6 +65,8 @@
    {
     echo "<p> El numero $_GET no es primo <br> </p> ";
    }
+
+   */
 
    ?>
 
